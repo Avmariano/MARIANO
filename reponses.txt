@@ -1,0 +1,6 @@
+[13:44, 05/05/2023] +229 98 39 31 98: commande git pull récupère les modifications depuis la branche distante et les fusionne automatiquement avec votre branche locale, tandis que la commande git fetch ne fusionne pas automatiquement les modifications et vous permet de les examiner avant de les fusionner manuellement.
+
+b) Vous pouvez annuler les modifications locales non validées avec la commande git checkout -- chemin/vers/fichier. Par exemple, pour annuler les modifications apportées à index.html, utilisez la commande git checkout -- index.html.
+[13:47, 05/05/2023] +229 98 39 31 98: c) Pour supprimer une branche distante, utilisez la commande git push origin --delete nom_de_la_branche. Par exemple, pour supprimer la branche develop, utilisez la commande git push origin --delete develop.
+
+d) Pour voir l'historique des modifications pour un fichier spécifique, utilisez la commande git log -- chemin/vers/fichier. Par exemple, pour voir l'historique des modifications pour index.html, utilisez la commande git log -- index.html.
